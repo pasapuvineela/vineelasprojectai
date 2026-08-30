@@ -1,0 +1,12 @@
+# requirements.txt
+#
+# rule_checker.py is implemented entirely with the Python standard library
+# (re, dataclasses, typing) and has NO third-party/pip dependencies.
+#
+# This file is intentionally left with no package entries. It exists only
+# so tooling that expects a requirements.txt (CI, dependency scanners, etc.)
+# has something to find. Running:
+#
+#     python3 rule_checker.py
+#
+# requires nothing beyond a standard Python 3.7+ interpreter.
